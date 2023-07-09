@@ -4626,10 +4626,11 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 
 /* ----		14.2.	USERPOPOUT						---- */
 
-.userPopoutOuter-1OHwPL {									/* popout				container							*/
+/*
+.userPopoutOuter-1OHwPL {															
 	box-shadow: 0 0 0 1px rgba(var(--transparencycolor), .3), 0 2px 10px 0 rgba(var(--transparencycolor), .3);
 }
-.userProfileOuterUnthemed-11rPfA {							/* popout				container							*/
+.userProfileOuterUnthemed-11rPfA {							
 	background: transparent;
 }
 .userProfileOuterUnthemed-11rPfA::before,
@@ -4657,7 +4658,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 .accountProfilePopoutWrapper-3GskID .overlayBackground-2aa7wt {
 	display: block !important;
 }
-.profileColors-2AgAV4 {										/* popout				profilecolors						*/
+.profileColors-2AgAV4 {										
     --profile-body-background-color: rgba(0,0,0,.4) !important;
     --profile-body-divider-color: var(--background-modifier-accent) !important;
     --profile-body-divider-opacity: 1 !important;
@@ -4685,17 +4686,17 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 .userProfileInnerThemedWithBanner-25XGmz::after {
 	height: 120px;
 }
-.userProfileInner-1ngKnf {									/* popout				inner								*/
+.userProfileInner-1ngKnf {									
 	border-radius: 4px;
 }
-.userPopoutOuter-1OHwPL .wrapper-3Un6-K,					/* popout				avatar								*/
-.userPopoutOuter-1OHwPL .avatarWrapper {					/* popout				status everywhere					*/
+.userPopoutOuter-1OHwPL .wrapper-3Un6-K,					
+.userPopoutOuter-1OHwPL .avatarWrapper {					
 	background-color: transparent;
 	border-color: transparent;
 	box-sizing: content-box;
 }
 
-.root-jbEB5E {												/* body					roles								*/
+.root-jbEB5E {												
 	max-height: 100px;
 	overflow-x: hidden;
 	overflow-y: scroll;
@@ -4703,7 +4704,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 #app-mount .root-jbEB5E::-webkit-scrollbar {
 	width: 4px;
 }
-#app-mount .role-2TIOKu {									/* body					role								*/
+#app-mount .role-2TIOKu {									
 	border-color: rgba(var(--textbrighter), .6);
 	border-radius: 5px;
 	padding: 0 5px;
@@ -4715,7 +4716,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 #app-mount .rolePillBorder-RiRiuN:not(.actionButton-1YKTU0) {
 	border-width: 0;
 }
-#app-mount .role-2TIOKu .roleName-2ZJJYR {					/* body					rolename							*/
+#app-mount .role-2TIOKu .roleName-2ZJJYR {					
 	position: relative;
 	color: rgb(var(--textbrightest));
 	height: 20px;
@@ -4732,7 +4733,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 	bottom: 0;
 	left: 0;
 }
-#app-mount .role-2TIOKu .roleCircle-3TFUOr {				/* body					rolecircle							*/
+#app-mount .role-2TIOKu .roleCircle-3TFUOr {				
 	position: absolute;
 	background-color: rgb(var(--textbrighter));
 	border-radius: 3px;
@@ -4759,7 +4760,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 	z-index: 1;
 }
 
-.textarea-_59yqs:focus {									/* body					note 								*/
+.textarea-_59yqs:focus {									
 	background-color: rgba(var(--transparencycolor), .2);
 }
 
@@ -4771,7 +4772,7 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 #app-mount .wumpusTooltip-15kPrN::after {
 	border-color: transparent rgb(var(--accentcolor)) transparent transparent;
 }
-
+*/
 /* ----		14.3.	EMOJIPICKER						---- */
 
 .contentWrapper-3vHNP2,										/* picker				expression wrapper					*/
